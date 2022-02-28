@@ -11,8 +11,6 @@ class Test_loginPage(BaseClass):
         log.info(title)
         assert title == Basics.LoginPageTitle
 
-    def test_loggingIntoTheApp(self):
-        self.login.logging_in(Basics.url, Basics.PASSWORD)
 
 
     def test_checking_message(self):
